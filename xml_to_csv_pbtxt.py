@@ -1,4 +1,6 @@
 #adjusted from: https://github.com/datitran/raccoon_dataset
+import os
+
 def xml_to_csv(path):
   classes_names = []
   xml_list = []
