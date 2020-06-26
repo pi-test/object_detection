@@ -1,5 +1,9 @@
 #adjusted from: https://github.com/datitran/raccoon_dataset
 import os
+import glob
+import pandas as pd
+import xml.etree.ElementTree as ET
+
 
 def xml_to_csv(path):
   classes_names = []
@@ -27,6 +31,7 @@ def xml_to_csv(path):
 
 for label_path in ['train_labels', 'test_labels']:
   image_path = os.path.join(os.getcwd(), label_path)
+  print(image_path)
   xml_df, classes = xml_to_csv(label_path)
   xml_df.to_csv(f'{label_path}.csv', index=None)
   print(f'Successfully converted {label_path} xml to csv.')
