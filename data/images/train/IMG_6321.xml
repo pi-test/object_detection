@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>IMG_6321.jpg</filename>
+	<path>/home/sosorry/ftp/personal/presentation/RPI/RaspberryPi/20200725_flir_fusionpi_01/tensorflow/IMG_6321.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1800</width>
+		<height>1350</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pi</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>719</xmin>
+			<ymin>530</ymin>
+			<xmax>1238</xmax>
+			<ymax>1097</ymax>
+		</bndbox>
+	</object>
+</annotation>
