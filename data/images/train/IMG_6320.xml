@@ -1,13 +1,13 @@
 <annotation>
-	<folder>images</folder>
+	<folder>train</folder>
 	<filename>IMG_6320.jpg</filename>
-	<path>/home/sosorry/ftp/personal/presentation/RPI/RaspberryPi/20200725_flir_fusionpi_01/tensorflow/IMG_6320.jpg</path>
+	<path>/tmp/object_detection/data/images/train/IMG_6320.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1800</width>
-		<height>1350</height>
+		<width>800</width>
+		<height>600</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>802</xmin>
-			<ymin>395</ymin>
-			<xmax>1300</xmax>
-			<ymax>739</ymax>
+			<xmin>356</xmin>
+			<ymin>177</ymin>
+			<xmax>582</xmax>
+			<ymax>325</ymax>
 		</bndbox>
 	</object>
 </annotation>
